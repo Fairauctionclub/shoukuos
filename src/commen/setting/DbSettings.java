@@ -56,7 +56,24 @@ public class DbSettings {
     return rocksDbSettings == null ? getDefaultSettings() : rocksDbSettings;
   }
 
- 
+  public static RocksDbSettings initCustomSettings(int levelNumber, int compactThreads,
+      int blockSize, long maxBytesForLevelBase,
+      double maxBytesForLevelMultiplier, int level0FileNumCompactionTrigger,
+      long targetFileSizeBase,
+      int targetFileSizeMultiplier) {
+    rocksDbSettings = new RocksDbSettings()
+        .withMaxOpenFiles(5000)
+        .withEnableStatistics(false)
+        .withLevelNumber(levelNumber)
+        .withCompactThreads(compactThreads)
+        .withBlockSize(blockSize)
+        .withMaxBytesForLevelBase(maxBytesForLevelBase)
+        .withMaxBytesForLevelMultiplier(maxBytesForLevelMultiplier)
+        .withLevel0FileNumCompactionTrigger(level0FileNumCompactionTrigger)
+        .withTargetFileSizeBase(targetFileSizeBase)
+        .withTargetFileSizeMultiplier(targetFileSizeMultiplier);
+    return rocksDbSettings;
+  }
 
   public static void loggingSettings() {
     logger.info(String.format(
@@ -124,4 +141,3 @@ public class DbSettings {
     return cache;
   }
 }
-
