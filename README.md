@@ -1,2 +1,2 @@
-- 👋 Hi, I’m @shoukuos
+- 👋 Hi
 this is my fist projects
