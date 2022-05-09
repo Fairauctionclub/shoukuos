@@ -17,7 +17,11 @@ public enum ConfigTypeEn {
     private String desc;
 
     public static ConfigTypeEn getEntity(String value) {
-        
+        for (ConfigTypeEn contentType : values()) {
+            if (contentType.getValue().equals(value)) {
+                return contentType;
+            }
+        }
         return null;
     }
 
