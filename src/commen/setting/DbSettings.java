@@ -1,4 +1,4 @@
-package org.tron.common.setting;
+package common.setting;
 
 import lombok.Getter;
 import lombok.Setter;
