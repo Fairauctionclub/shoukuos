@@ -35,6 +35,18 @@ public enum ErrorCodeEn {
     USER_SEX_NOT_EXIST(7989, "用户性别不存在"),
     USER_TOKEN_INVALID(7988, "token 无效"),
     USER_STATE_IS_DISABLE(7987, "用户已被禁用"),
+    CONTENT_TYPE_NOT_EXIST(7995, "不存在的内容类型"),
+    POSTS_SAVE_FAIL(7994, "帖子保存失败"),
+    POSTS_NOT_EXIST(7993, "帖子不存在"),
+
+    COMMENT_NOT_EXIST(1504, "评论不存在"),
+    COMMENT_POSTS_NOT_EXIST(1504, "评论帖子不存在"),
+
+    TAG_NOT_MATCH_DOMAIN(7997, "所选标签与当前领域不匹配"),
+    TAG_IS_EXIST(7989, "标签已存在"),
+    TAG_NOT_EMPTY(7997, "标签不能为空"),
+    TAG_NOT_EXIST(7996, "标签不存在"),
+
     ;
 
 
