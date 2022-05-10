@@ -46,6 +46,21 @@ public enum ErrorCodeEn {
     TAG_IS_EXIST(7989, "标签已存在"),
     TAG_NOT_EMPTY(7997, "标签不能为空"),
     TAG_NOT_EXIST(7996, "标签不存在"),
+    MESSAGE_SYSTEM_MAIL_SEND_FAIL(6999, "系统邮件发送失败"),
+    MESSAGE_DING_DING_SEND_RES_FAIL(6998, "发送钉钉群机器人消息返回失败"),
+    MESSAGE_DING_DING_SEND_FAIL(6997, "发送钉钉群机器人消息异常"),
+    MESSAGE_QIYE_WX_SEND_RES_FAIL(6996, "发送企业微信群机器人消息返回失败"),
+    MESSAGE_QIYE_WX_SEND_FAIL(6995, "发送企业微信群机器人消息异常"),
+
+    ARTICLE_TYPE_IS_EXIST(5999, "文章类型已存在"),
+    ARTICLE_NOT_EXIST(5998, "文章不存在"),
+    ARTICLE_IN_AUDIT_PROCESS(5997, "文章审核中"),
+
+    FAQ_NOT_EXIST(4999, "问答不存在"),
+    FAQ_IN_AUDIT_PROCESS(4998, "问答审核中"),
+
+    FILE_UPLOAD_FAIL(4998, "文件上传失败"),
+    FILE_UPLOAD_NOT_SUPPORT_IMG_TYPE(4997, "不支持的图片类型"),
 
     ;
 
