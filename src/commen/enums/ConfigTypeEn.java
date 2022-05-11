@@ -9,8 +9,8 @@ import lombok.Getter;
 public enum ConfigTypeEn {
 
  
-    HOME_CAROUSEL("HOME_CAROUSEL", "首页轮播图"),
-    SIDEBAR_CAROUSEL("SIDEBAR_CAROUSEL", "侧边栏轮播图"),
+    HOME_CAROUSEL("HOME_CAROUSEL", "HOME_CAROUSEL"),
+    SIDEBAR_CAROUSEL("SIDEBAR_CAROUSEL", "SIDEBAR_CAROUSEL"),
     ;
 
     private String value;
