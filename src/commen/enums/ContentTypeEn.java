@@ -7,8 +7,8 @@ import exception.BizException;
 @AllArgsConstructor
 @Getter
 public enum ContentTypeEn {
-    HTML("HTML", "html富文本"),
-    MARKDOWN("MARKDOWN", "markdown内容"),
+    HTML("HTML", "html"),
+    MARKDOWN("MARKDOWN", "markdown"),
     ;
 
     private String value;
