@@ -6,8 +6,8 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum ArticleTypeScopeEn {
   
-    OFFICIAL("OFFICIAL", "官方"),
-    USER("USER", "用户"),
+    OFFICIAL("OFFICIAL", "OFFICIAL"),
+    USER("USER", "USER"),
     ;
     private String value;
     private String desc;
